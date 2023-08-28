@@ -1,0 +1,78 @@
+.form {
+    width: 512px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form h2 {
+    color: black;
+    font-size: 24px;
+    height: 50px;
+}
+
+.form label {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.form input,
+.form textarea {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 7px;
+    margin-bottom: 24px;
+    margin: bottom 24px;
+    ;
+}
+
+.form input {
+    height: 40px;
+}
+
+.form button {
+    height: 40px;
+    background-color: rgb(218, 204, 223);
+    color: black;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.contato {
+    color: black;
+    font-size: medium;
+    height: 30px;
+    flex-direction: column;
+
+}
+
+.contato__destaque {
+
+    color: black;
+    font-size: medium;
+    height: 30px;
+    flex-direction: column;
+}
+
+.email {
+
+    height: 400px;
+}
+
+/*ADD UMA QUERY AQUI*/
+@media (max-width: 420px) {
+  .apresentacao {
+    flex-direction:column; /* REVERTER A DIREÇÃO DO FLEX, PARA QUE A IMG FIQUE EM CIMA DO FORM*/
+  }
+
+  .apresentacao img { /* DIMINUIR UM POUCO O TAMANHO DESSA IMG */
+    width: 100px;
+    height: 200px;
+  }
+
+  .form {
+    width: 160px; /* DIMINUIR O TAMANHO DO FORM PRA QUE CAIBA NA TELA*/
+  }
+
+
+}

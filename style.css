@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: azure;
+    color: black;
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: var(--font-secundaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+}
+
+.titulo-destaque {
+    color: black;
+    font-size: medium;
+    height: 30px;
+}
+
+.apresentacao {
+    padding: 8% 17%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.apresentacao__conteudo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 1px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 2.25rem;
+    font-family: var(--font-principal);
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 1.5rem;
+    font-family: var(--font-secundaria);
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 23px;
+}
+
+.links2 {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    width: 50%;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 1.5rem;
+    padding: 25px 0;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+}
+
+.minhas__redes {
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.minhas__redes2 {
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.minhas__redes3 {
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagem__raquel {
+    width: 400px;
+}
+
+.rodape {
+    pad: 34px;
+    color: black;
+    background-color: rgb(218, 204, 223);
+    text-align: center;
+    font-size: 1.5rem;
+    
+}
+
+.logo__alura {
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo__senac {
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.links2:hover {
+    background-color: rgb(218, 204, 223);
+}
+
+.links3:hover {
+    background-color: rgb(218, 204, 223);
+}
+
+.links4:hover {
+    background-color: rgb(218, 204, 223);
+}
+
+.contato {
+    color: black;
+    font-size: medium;
+    height: 30px;
+    flex-direction: column;
+}
+
+.contato__destaque {
+    color: black;
+    font-size: medium;
+    height: 30px;
+    flex-direction: column;
+}
+
+.ilustracao {
+    width: 412px;
+}
+
+.informacoes__pessoais {
+    font-size: 15px;
+    gap: 82px;
+    padding: 2% 0%;
+    justify-content: flex-start;
+    height: 5%;
+}
+
+/*.informacoes__pessoais2 {
+    font-size: medium;
+    width: 60%;
+    line-height: 0%;
+    height: 10px;
+}*/
+
+.negrito {
+    font-weight: bold;
+}
+
+.imagem__fotowork {
+    width: 420px;
+}
+
+@media (max-width: 1200px ) {
+    .cabecalho{ 
+        padding: 10%;
+    }
+    .cabecalho__menu {
+        justify-content: center;
+    }
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+}
